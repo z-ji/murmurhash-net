@@ -1,12 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.12
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "misc", "misc", "{793CFB32-44CA-4E4B-9982-5A33350955F0}"
 	ProjectSection(SolutionItems) = preProject
-		compile.proj = compile.proj
-		default.proj = default.proj
 		README.md = README.md
-		release.cmd = release.cmd
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{6EF61253-3914-4D68-A3F2-A15CB0483841}"
@@ -18,7 +17,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{6EF612
 		Package.nuspec = Package.nuspec
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MurmurHashStandard", "MurmurHashStandard\MurmurHashStandard.csproj", "{61E63231-F1A6-4C33-BAF4-7433C10162FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MurmurHash", "MurmurHash\MurmurHash.csproj", "{762EA3B0-7D5E-4F74-92A8-D89EFCBDD6FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,10 +25,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{61E63231-F1A6-4C33-BAF4-7433C10162FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{61E63231-F1A6-4C33-BAF4-7433C10162FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{61E63231-F1A6-4C33-BAF4-7433C10162FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{61E63231-F1A6-4C33-BAF4-7433C10162FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{762EA3B0-7D5E-4F74-92A8-D89EFCBDD6FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{762EA3B0-7D5E-4F74-92A8-D89EFCBDD6FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{762EA3B0-7D5E-4F74-92A8-D89EFCBDD6FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{762EA3B0-7D5E-4F74-92A8-D89EFCBDD6FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="15.0">
+  <PropertyGroup Label="Configuration">
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <Optimize>True</Optimize>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetFramework>netstandard1.6</TargetFramework>
+    <PackageId>zji.murmurhash.core</PackageId>
+    <Authors>Zefei Ji</Authors>
+    <Company />
+    <Product>MurmurHash.Core</Product>
+    <Description>.Net MurmurHash implementation.
+It's targeting dotnet core only.
+port from https://github.com/darrenkopp/murmurhash-net</Description>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0.html</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/z-ji/murmurhash-net</PackageProjectUrl>
+  </PropertyGroup>
+</Project>
